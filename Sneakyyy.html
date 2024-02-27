@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sneakkyy</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      function payWithGcash() {
+        $.ajax({
+          url: "create_payment_intent.php",
+          type: "POST",
+          success: function (response) {
+            // The server's response is in 'response'
+            console.log(response);
+            // Here you can handle the response, for example redirect to the payment URL
+          },
+          error: function (jqXHR, textStatus, errorThrown) {
+            console.log(textStatus, errorThrown);
+          },
+        });
+      }
+    </script> -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+      .shoe-list {
+        list-style-type: none;
+        padding: 0;
+      }
+      .shoe-item {
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 14px;
+        border-radius: 5px;
+        background-color: #fff;
+      }
+      .shoe-item h4 {
+        margin: 0;
+      }
+      .shoe-item p {
+        margin: 0;
+      }
+      .pay-button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+       .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            justify-items: center; 
+            align-items: center;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        @media (min-width: 600px) {
+            .grid-container {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Sneakkyy</h1>
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="shoe-item">
+            <img 
+                src="./421635722_915548576893552_3089047175009976474_n.png"
+                alt="Nike Sb Janoski OG+ Black/White"
+                width="300"
+                height="300"
+              >
+              <h4>Nike Sb Janoski OG+ Black/White</h4>
+              <p>Price: $100</p>
+              <!-- <button class="pay-button" onclick="payWithGcash()">
+                Pay with Gcash
+              </button> -->
+              
+
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="shoe-item">
+            <img 
+                src="./nike-black-shoes.png"
+                alt="Nike Sb Chron 2"
+                width="300"
+                height="300"
+              >
+            <h4>Nike Sb Chron 2</h4>
+            <p>Price: $100</p>
+            <!-- <button class="pay-button" onclick="payWithGcash()">
+              Pay with Gcash
+            </button> -->
+            
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="shoe-item">
+            <img 
+                src="./dc-blue-shoes.png"
+                alt="DC Shoes Teknic x Wes Kremer"
+                width="300"
+                height="300"
+              >
+            <h4>DC Shoes Teknic x Wes Kremer</h4>
+            <p>Price: $100</p>
+            <!-- <button class="pay-button" onclick="payWithGcash()">
+              Pay with Gcash
+            </button> -->
+            
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="shoe-item">
+            <img 
+                src="./dc-white-shoes.png"
+                alt="Dc Shoes Teknic Off White"
+                width="300"
+                height="300"
+              >
+            <h4>Dc Shoes Teknic Off White</h4>
+            <p>Price: $100</p>
+            <!-- <button class="pay-button" onclick="payWithGcash()">
+              Pay with Gcash
+            </button> -->
+            
+          </div>
+      </div>
+     
+    </div>
+     <div style="margin: 10px;">
+        <div >
+          For Inquires and Orders, Please contact us at 09352894676 or email us at
+          <a href="mailto:marionrosete1@gmail.com">marionrosete1@gmail.com</a>
+          
+        </div>
+      </div>
+  </body>
+</html>
